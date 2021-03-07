@@ -1,4 +1,3 @@
-from threading import Thread
 import pygame as pg
 import time
 
@@ -15,7 +14,7 @@ def play_notes(path, dur=0.3):
     pg.mixer.Sound(path).play()
     time.sleep(dur)
 
-pth = r'C:\Users\ACER\Desktop\mp3shit\mp3'
+pth = r'this path here'
 
 def appenddeeznuts(lily):
     girth = len(lily)
